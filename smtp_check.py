@@ -46,4 +46,4 @@ if __name__ == "__main__":
     # Test different connection types
     #check_smtp_connection(HOST, 25, USERNAME, PASSWORD, "none")
     #check_smtp_connection(HOST, 465, USERNAME, PASSWORD, "ssl")
-    check_smtp_connection(HOST, 587, USERNAME, PASSWORD, "tls")
+    check_smtp_connection(HOST, PORT, USERNAME, PASSWORD, "tls")
